@@ -1,0 +1,26 @@
+# Raw datasets
+01_Raw_data/
+
+# Power BI temporary/cache files
+*.pbit
+*.tmp
+*.bak
+
+# Python cache
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Jupyter temporary files
+*.log
+
+# Windows files
+Thumbs.db
+Desktop.ini
+
+# Excel temporary files
+~$*.xlsx
+~$*.xls
+
+# Anaconda internal files
+04_Python/anaconda_projects/

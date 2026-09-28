@@ -1,0 +1,3 @@
+CREATE DATABASE FIFA_WorldCup_DB;
+
+USE FIFA_WorldCup_DB;
