@@ -74,9 +74,11 @@ Staging tables are used for data ingestion and integration.
 
 ## 📊 Power BI Dashboard
 
-The Power BI dashboard contains four analytical pages.
+The Power BI dashboard contains four analytical pages covering World Cup history, team performance, match analysis, and stadium attendance.
 
 ### Page 1 — World Cup Overview
+
+Provides a high-level overview of FIFA World Cup history from 1930 to 2026.
 
 Key metrics include:
 
@@ -86,42 +88,62 @@ Key metrics include:
 - Average Goals per Match
 - Total Teams
 - Total Attendance
-- Champions by Tournament
+- World Cup Champions
+
+![World Cup Overview](08_GitHub/Dashboard_Screenshots/01_World_Cup_Overview.png)
+
+---
 
 ### Page 2 — Team Performance Analysis
 
-Analyzes:
+Analyzes team-level performance across World Cup tournaments.
 
-- Matches played
+Key metrics include:
+
+- Matches Played
 - Wins
 - Draws
 - Losses
-- Win rate
-- Goals scored
-- Goals conceded
-- Tournament performance
-- Team results by World Cup
+- Win Rate
+- Goals Scored
+- Goals Conceded
+- Tournament Performance
+- Results by World Cup
+
+![Team Performance](08_GitHub/Dashboard_Screenshots/02_Team_Performance.png)
+
+---
 
 ### Page 3 — Match & Tournament Analysis
 
-Analyzes:
+Provides detailed analysis of matches and tournament stages.
 
-- Match results
-- Goals per match
-- Tournament stages
-- Stadium-based match analysis
-- Match result distribution
-- Highest-scoring matches
+Key analysis includes:
+
+- Match Results
+- Goals per Match
+- Tournament Stages
+- Stadium-based Match Analysis
+- Match Result Distribution
+- Highest-scoring Matches
+
+![Match & Tournament Analysis](08_GitHub/Dashboard_Screenshots/03_Match_Tournament_Analysis.png)
+
+---
 
 ### Page 4 — Stadium & Attendance Analysis
 
-Analyzes:
+Analyzes stadium utilization and World Cup attendance patterns.
 
-- Stadium usage
-- Top stadiums by matches
-- Highest-attendance matches
-- Attendance trends
-- Average attendance by World Cup
+Key analysis includes:
+
+- Stadium Usage
+- Top Stadiums by Matches
+- Highest-attendance Matches
+- Attendance Trends
+- Average Attendance by World Cup
+
+![Stadium & Attendance Analysis](08_GitHub/Dashboard_Screenshots/04_Stadium_Attendance_Analysis.png)
 
 ---
 
@@ -143,11 +165,62 @@ The integration includes:
 
 After integration, the analytical dataset contains:
 
-- **23 World Cups**
-- **1,068 matches**
-- **91 teams**
-- **3,028 goals**
-- **220 stadiums**
+| Metric | Value |
+|---|---:|
+| World Cups | 23 |
+| Matches | 1,068 |
+| Teams | 91 |
+| Goals | 3,028 |
+| Stadiums | 220 |
+
+---
+
+## 📈 Key Historical Insights
+
+The completed analytics phase provides insights into:
+
+- World Cup championship history
+- Team win performance
+- Goals scored across tournaments
+- Match result distributions
+- Tournament attendance trends
+- Stadium utilization
+- Highest-attendance matches
+- Team performance across World Cups
+
+### Example Analysis Areas
+
+**Team Performance**
+
+The dashboard allows users to select individual teams and analyze their:
+
+- Matches played
+- Wins
+- Draws
+- Losses
+- Win rate
+- Goals scored
+- Goals conceded
+- Performance by tournament
+
+**Match Analysis**
+
+Historical matches can be analyzed by:
+
+- World Cup
+- Tournament stage
+- Stadium
+- Match result
+- Goals scored
+
+**Attendance Analysis**
+
+The dashboard provides insights into:
+
+- Attendance trends
+- Stadium utilization
+- Highest-attendance matches
+- Average attendance by tournament
 
 ---
 
@@ -219,6 +292,21 @@ FIFA-World-Cup-Analytics-2030-Prediction/
 │
 ├── 07_Documentation/
 │
+├── 08_GitHub/
+│   └── Dashboard_Screenshots/
+│       ├── 01_World_Cup_Overview.png
+│       ├── 02_Team_Performance.png
+│       ├── 03_Match_Tournament_Analysis.png
+│       └── 04_Stadium_Attendance_Analysis.png
+│
 ├── .gitignore
 │
 └── README.md
+
+---
+
+## 👨‍💻 Author
+
+**Rahul Lal**
+
+Data Analyst | SQL | Power BI | Python | Data Analytics
